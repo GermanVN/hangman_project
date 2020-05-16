@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Hangman Game</h1>
+        <h4>Welcome to hangman game, please choose a letter</h4>
+        <p id="retry"></p>
+        <br>
+        <canvas id="myCanvas" width="300" height="300"></canvas>
+        <p id="guess-word" style="color:blue;font-size:24px;"></p>
+        
+        <br>
+        <input id= "letter-guess" type ="text" maxlength="1">
+        
+        <button id ="create-note">Letter</button>
+        <input id= "word-guess" type ="text" placeholder="Guess the word">
+        
+        <button id ="guess-note">Guess</button>
+        <h4 id ="announce"></h4>
+        <h4 id ="failed"></h4>
+        
+        
+        <script src="hangman.js"></script>
+        <script src="app.js"></script>
+        
+        
+    </body>
+</html>
